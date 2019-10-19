@@ -1,0 +1,11 @@
+<div class='navBar'>
+    <div class='logo'>  
+        <span>Green Producers</span>
+    </div>
+    <div class='searchBarDiv'>
+        <input placeholder='Pesquise produtos...' (change)='searchValue = searchInput.value' type="text" class='searchInput' #searchInput>
+        <div (click)="search()" class='searchIcon'>
+            <img src='../../assets/lupa.png'>
+        </div>
+    </div>
+</div>
