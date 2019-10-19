@@ -10,9 +10,9 @@ export class User{
 export class Produto{
     id:number;
     nome:string;
-    dataColheita:Date;
+    dataColheita:string;
     categorias:Categoria[];
-    dataVencimento:Date;
+    dataVencimento:string;
     descricao:string;
 }
 
@@ -26,10 +26,10 @@ export class Publicacao{
     id:number;
     titulo:string;
     subtitulo:string;
-    dataPublicacao:Date;
+    dataPublicacao:string;
     categorias:Categoria[];
     tags:Tag[];
-    localizacao:Date;
+    localizacao:string;
     descricao:string;
 }
 
